@@ -6,7 +6,9 @@ $(document).ready(function () {
     searchOptions: {
       key: apiKey,
       language: 'en-GB',
-      limit: 5,
+      limit: 15,
+      typeahead: true,
+      maxFuzzyLevel: 2,
     },
     autocompleteOptions: {
       key: apiKey,
@@ -38,7 +40,8 @@ $(document).ready(function () {
       addRecentSearch(city);
       window.location.href = 'results.html';
     } else {
-      alert('Please enter a location');
+      const message = $('.message');
+      message.text('Please enter a location.');
     }
   });
 });
