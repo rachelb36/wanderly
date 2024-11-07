@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Description
 ## Tailor-made-trips is a website that will help travelers around the globle to easily customize their trips at the own convenience 
 #  Usage
@@ -35,3 +36,7 @@ Make sure you have your API keys set up in the .env file as mentioned in the ins
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ## Contact
 For any questions or suggestions, please contact us at support@tailormadetrips.com
+=======
+# travelnest
+Group Project 1 Resubmission
+>>>>>>> a298f6a941356a856fdfba8ca44c097483b4fbfa
